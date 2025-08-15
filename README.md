@@ -1,6 +1,10 @@
 # Mood Journal
 A digital mood journaling app with emotion tracking, sentiment analysis, and mental wellness tools.
 
+The Frontend (Client side) portion of the project was done by me. 
+The Backend (Server side) portion of the project was done by my friend Ayush. 
+The Server Side code can be found here : [Click Here!](https://github.com/Ayush-Dev09/Mood-Journal/tree/main/server)
+
 ## Features
 - Mood tracking with journal entries
 - Sentiment analysis using NLP
