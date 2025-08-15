@@ -1,0 +1,45 @@
+{
+  "name": "mood-journal",
+  "version": "1.0.0",
+  "description": "A digital journal app with mood tracking, sentiment analysis, and mental health features.",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ayush-Dev09/Mood-Journal.git"
+  },
+  "author": "Ayush Anand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayush-Dev09/Mood-Journal/issues"
+  },
+  "homepage": "https://github.com/Ayush-Dev09/Mood-Journal#readme",
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "body-parser": "^1.20.2",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "firebase-admin": "^11.11.1",
+    "mongoose": "^7.8.7",
+    "morgan": "^1.10.0",
+    "natural": "^6.2.0",
+    "openai": "^3.2.1",
+    "sentiment": "^5.0.2",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^2.0.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  }
+}
